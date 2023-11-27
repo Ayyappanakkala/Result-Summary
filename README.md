@@ -18,7 +18,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Overview
 
-This project aimed to create a responsive results summary component, presenting users with their test scores and category-wise performance. My process involved using HTML, CSS, and optionally JavaScript to achieve a visually appealing and interactive web page.![here]()
+This project aimed to create a responsive results summary component, presenting users with their test scores and category-wise performance. My process involved using HTML, CSS, and optionally JavaScript to achieve a visually appealing and interactive web page.![here](https://ayyappanakkala.github.io/Result-Summary/)
 
 ### The challenge
 
@@ -32,7 +32,7 @@ The challenge was to create a responsive results summary component, allowing use
 ### Links
 
 - Solution URL: (https://github.com/Ayyappanakkala/Result-Summary.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://ayyappanakkala.github.io/Result-Summary/)
 
 ## My process
 
@@ -93,8 +93,6 @@ In future projects, I plan to delve deeper into JavaScript to add interactive el
 - Website - [Ayyappa Akkala](-https://github.com/Ayyappanakkala/Personal_Portfolio.git)
 - Frontend Mentor - [@Ayyappanakkala](https://www.frontendmentor.io/profile/@Ayyappanakkala)
 - Linkedin - [@Ayyappaakkala](http://www.linkedin.com/in/ayyappaakkala)
-
-## Acknowledgments
 
 ## Acknowledgments
 
