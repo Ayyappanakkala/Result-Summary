@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100;200;300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;700;900&display=swap');
+
+:root {
+  /*Primary Color*/
+  --light-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+
+  /*Gradients*/
+  --light-slate-blue: hsl(252, 100%, 67%);
+  --light-royal-blue: hsl(241, 81%, 54%);
+  --violet-blue-circle: hsla(256, 72%, 46%, 1);
+  --persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+  /*Neutral*/
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+
+  /*Cards Colors*/
+  --lighty-red: hsl(0, 100%, 96%);
+  --lighty-yellow: hsl(39, 100%, 96%);
+  --lighty-green: hsl(165, 100%, 96%);
+  --lighty-blue: hsl(246, 100%, 96%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Hanken Grotesk;
+  font-size: 18px;
+}
+.container {
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  margin-top: 10%;
+  background: var(--white);
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px 5px var(--pale-blue);
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.part-1 {
+  width: 50%;
+  height: 100%;
+  border-radius: 18px;
+  background: linear-gradient(
+    to bottom,
+    var(--light-slate-blue),
+    var(--light-royal-blue)
+  );
+  text-align: center;
+}
+#head {
+  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: var(--light-lavender);
+}
+.circle {
+  width: 40%;
+  height: 30%;
+  margin: auto;
+  padding: 8%;
+  border-radius: 50%;
+  background: linear-gradient(
+    to bottom,
+    var(--violet-blue-circle),
+    var(--persian-blue-circle)
+  );
+}
+.circle > h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: var(--white);
+}
+.circle p {
+  font-weight: 700;
+  color: var(--light-slate-blue);
+}
+#great {
+  padding: 5%;
+  font-weight: 700;
+  color: var(--white);
+}
+.msg {
+  padding: 2%;
+  font-weight: 400;
+  color: var(--light-lavender);
+}
+.part-2 h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: var(--dark-gray-blue);
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* Cards */
+.card-1 {
+  width: 300px;
+  height: 60px;
+  background: var(--lighty-red);
+  border-radius: 10px;
+}
+#card-1-p1 {
+  font-weight: 700;
+  padding: 16px;
+}
+#card-1-p1 img {
+  width: 21px;
+  margin-right: 10px;
+}
+.head-1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 80px;
+  color: var(--light-red);
+}
+#tail {
+  font-weight: 700;
+  color: hsl(226, 30%, 58%);
+}
+.card-1:nth-child(2) {
+  background: var(--lighty-yellow);
+}
+.card-1:nth-child(3) {
+  background: var(--lighty-green);
+}
+.card-1:nth-child(4) {
+  background: var(--lighty-blue);
+}
+.card-1 > .head-1:nth-child(2) {
+  color: var(--orangey-yellow);
+}
+.head-2 {
+  color: var(--orangey-yellow);
+}
+.head-3 {
+  color: var(--green-teal);
+  margin-right: 100px;
+}
+.head-4 {
+  color: var(--cobalt-blue);
+  margin-right: 100px;
+}
+/* Button */
+.btn {
+  width: 300px;
+  height: 60px;
+  background: #0a0835;
+  margin-top: 20px;
+  border: none;
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: linear-gradient(
+    to bottom,
+    var(--light-slate-blue),
+    var(--light-royal-blue)
+  );
+}
+/* Footer */
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1440px) {
+  .container {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .part-1 {
+    width: 100vw;
+    height: 330px;
+    border-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  #head {
+    padding: 12px;
+  }
+  .circle {
+    width: 32%;
+    height: 32%;
+    padding: 4px;
+  }
+  #great {
+    padding: 4px;
+  }
+  .part-2 h1 {
+    font-size: 20px;
+  }
+}
